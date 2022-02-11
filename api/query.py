@@ -4,6 +4,14 @@ import pickle
 from api.models.items import Items
 
 def query_api(seller_id, site_id):
+    '''
+    Funcion que realiza una consulta por medio de api, 
+    genera un archivo de LOG que contiene 
+    los siguientes datos de cada ítem: 
+    - "id" del ítem
+    - "title" del item
+    - "category_id" donde está publicado
+    '''
     filename = 'query.log'
     # Permite listar ítems por vendedor.    
     url = f'https://api.mercadolibre.com/sites/{site_id}/search?seller_id={seller_id}'
