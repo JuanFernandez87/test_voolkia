@@ -12,8 +12,10 @@ Se utilizaron las siguientes herramientas para el desarrollo del script:
 ### Objetivo 
 ----
 Para resolver este test se implemento un script que realizaba una consulta por medio del recurso ***/sites/$SITE_ID/search?seller_id=$SELLER_ID*** el cual permite listar ítems por vendedor.
-Esa consulta se fue recorriendo como json y por cada iteración se creaba un objeto de tipo Item, en el cual se iban almacenando la información solicitada y se guardaba en una lista.
-Para finalizar el sript, la lista se almacenaba en un archivo log
+
+Esa consulta se fue recorriendo como json y por cada iteración se creaba un objeto de tipo Item. En cada instancia se almacena la información solicitada y se guarda en una lista.
+
+Para finalizar el sript, la lista se almacenaba en un archivo log.
 
 ### Instalación
 ----
