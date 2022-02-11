@@ -2,7 +2,7 @@
 ----
 
 
-Este test se realizo en Python y en base a una consigna dispuesta por Voolkia para hacer.
+Este test se realizo en Python y en base a una consigna dispuesta por Voolkia para resolver.
 Se utilizaron las siguientes herramientas para el desarrollo del proyecto:
 - Para obtener los archivos fuentes del sitio www.datos.gob.ar se uso la librería ***requests*** .
 - Para almacenar los datos del objeto en el archivo log se uso la libreria ***pickle***.
